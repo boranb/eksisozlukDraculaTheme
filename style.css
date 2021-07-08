@@ -196,6 +196,9 @@
     }
     .dropdown .dropdown-menu a {
         color: #aaa;
+    }     
+    .pager {
+    color: #f8f8f2;
     }
     html.no-touch .dropdown .dropdown-menu li:hover {
         background-color: #444;
