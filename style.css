@@ -256,6 +256,16 @@
     html.no-touch .dropdown .dropdown-menu li:hover {
         background-color: #282a36;
     }
+    .index-channel-filter > li > #filter-index-channel.active {
+        color: #8be9fd;
+    }
+    .index-channel-filter > li > #filter-index-channel.passive {
+        color: #8be9fd;
+    }
+    #index-filter-prefs,
+    #index-filter-prefs-mobile {
+        background: #44475a !important;
+    }
     #search-form #search-textbox {
         border: 0;
         height: 32px;
