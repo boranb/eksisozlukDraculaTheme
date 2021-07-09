@@ -9,28 +9,28 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://eksisozluk.com") {
-     ::selection {
+    ::selection {
         background: #888;
         color: #fff;
     }
-     ::-webkit-scrollbar-track {
+    ::-webkit-scrollbar-track {
         background-color: transparent;
     }
-     ::-webkit-scrollbar {
+    ::-webkit-scrollbar {
         width: 7px!important;
     }
-     ::-webkit-scrollbar-thumb {
+    ::-webkit-scrollbar-thumb {
         background-color: #44475a !important;
     }
     body,
-    .topic-list li>a {
+    .topic-list li > a {
         color: #aaa;
     }
     body,
-    body>header {
+    body > header {
         background-color: #282a36 !important;
     }
-    body>header {
+    body > header {
         border: 0;
         border-bottom: 1px solid #44475a !important;
     }
@@ -79,24 +79,24 @@
     input[type=button]:focus {
         background-color: #888;
     }
-    html.no-touch .topic-list li>a,
+    html.no-touch .topic-list li > a,
     .more-data {
         border-radius: 4px;
     }
-    html.no-touch .topic-list li>a:hover {
+    html.no-touch .topic-list li > a:hover {
         background-color: #44475a;
     }
-    html.no-touch .pager>a:hover,
+    html.no-touch .pager > a:hover,
     html.no-touch #partial-index::-webkit-scrollbar-thumb {
         background-color: #282a36;
     }
     html.no-touch a.more-data:hover {
         background-color: #282a36;
     }
-    .topic-list.partial>li>a>small {
+    .topic-list.partial > li > a > small {
         color: #ff79c6;
     }
-    .topic-list.partial>li>a {
+    .topic-list.partial > li > a {
         padding: 8px;
         padding-right: 12%;
     }
@@ -106,16 +106,16 @@
     .ui-autocomplete {
         background-color: #44475a;
     }
-    .ui-autocomplete>li>div {
+    .ui-autocomplete > li > div {
         color: #aaa;
         cursor: pointer;
     }
-    .no-touch .ui-autocomplete>li>div.ui-state-active,
-    .no-touch .ui-autocomplete>li>div:hover {
+    .no-touch .ui-autocomplete > li > div.ui-state-active,
+    .no-touch .ui-autocomplete > li > div:hover {
         background-color: #282a36;
         color: #aaa;
     }
-    .topic-list.partial>li>a>small {
+    .topic-list.partial > li > a > small {
         right: 8px;
         top: 8px;
     }
@@ -134,33 +134,33 @@
     .more-data {
         background-color: #282a36;
     }
-    .tabs>li.active>a {
+    .tabs > li.active > a {
         background-color: #44475a;
         color: #ccc;
     }
     .tabs {
         border-bottom: 1px solid #666;
     }
-    .tabs>li.active {
+    .tabs > li.active {
         border: 1px solid #666;
     }
-    .tabs>li>a:hover {
+    .tabs > li > a:hover {
         background-color: #44475a;
     }
     .tabs2 {
         border-color: #666;
     }
-    .tabs2>li {
+    .tabs2 > li {
         margin-bottom: 0;
     }
-    .tabs2>li+li {
+    .tabs2 > li + li {
         margin-left: 15px;
     }
-    .tabs2>li:hover>a {
+    .tabs2 > li:hover > a {
         color: #aaa;
         font-weight: normal;
     }
-    .tabs2>li.active>a {
+    .tabs2 > li.active > a {
         background-color: #44475a;
         padding: 3px 6px;
         border-radius: 4px;
@@ -184,7 +184,7 @@
         background-color: #282828;
         border-radius: 4px;
     }
-    .related-titles>ul>li {
+    .related-titles > ul > li {
         padding: 3px;
         font-size: 1.1em;
     }
@@ -199,6 +199,18 @@
     }
     .pager {
         color: #f8f8f2;
+    }
+    .voted {
+        color: #50fa7b!important;
+    }
+    .voted .eksico {
+        fill: #50fa7b!important;
+    }
+    .voted.dislike {
+        color: #ff5555!important;
+    }
+    .voted.dislike .eksico {
+        fill: #ff5555!important;
     }
     html.no-touch .dropdown .dropdown-menu li:hover {
         background-color: #282a36;
@@ -221,11 +233,11 @@
     #aside {
         display: none;
     }
-    .sub-title-menu>a,
-    .sub-title-menu>div>a,
-    .sub-title-menu>div>.dropdown>a,
-    #top-navigation>ul>li>a,
-    #sub-navigation>ul>li>a {
+    .sub-title-menu > a,
+    .sub-title-menu > div > a,
+    .sub-title-menu > div > .dropdown > a,
+    #top-navigation > ul > li > a,
+    #sub-navigation > ul > li > a {
         color: #666;
     }
     #content-body {
@@ -246,22 +258,22 @@
     #logo a {
         background-image: url(https://svgshare.com/i/YuU.svg) !important;
     }
-    html.no-touch #sub-navigation>ul>li:not(.no-hover):hover>a,
-    html.no-touch #sub-navigation>ul>li:not(.no-hover).active>a {
+    html.no-touch #sub-navigation > ul > li:not(.no-hover):hover > a,
+    html.no-touch #sub-navigation > ul > li:not(.no-hover).active > a {
         color: #bd93f9;
         border-color: #bd93f9;
         text-decoration: none;
     }
-    html.no-touch #sub-navigation>ul>li:not(.no-hover):hover .eksico,
-    html.no-touch #sub-navigation>ul>li:not(.no-hover).active .eksico {
+    html.no-touch #sub-navigation > ul > li:not(.no-hover):hover .eksico,
+    html.no-touch #sub-navigation > ul > li:not(.no-hover).active .eksico {
         fill: #bd93f9;
     }
-    #sub-navigation>ul>li.active>a {
+    #sub-navigation > ul > li.active > a {
         color: #bd93f9;
         border-color: #bd93f9;
         text-decoration: none;
     }
-    #sub-navigation>ul>li.active .eksico {
+    #sub-navigation > ul > li.active .eksico {
         fill: #bd93f9;
     }
     #entry-item-list footer .other .eksico,
@@ -376,7 +388,7 @@
     #matter-filter-options a {
         color: #aaa;
     }
-    html.no-touch #matter-index-filter-options>li:hover {
+    html.no-touch #matter-index-filter-options > li:hover {
         background-color: #444;
     }
     @media only screen and (min-width: 1060px) {
@@ -388,7 +400,7 @@
     #index-filter-prefs-mobile {
         background: #1a1a1a;
     }
-    .index-cookie-filter>li>#filter-index-channel.passive {
+    .index-cookie-filter > li > #filter-index-channel.passive {
         color: #777;
     }
 }
