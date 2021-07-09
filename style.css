@@ -20,7 +20,7 @@
         width: 7px!important;
     }
      ::-webkit-scrollbar-thumb {
-        background-color: #444 !important;
+        background-color: #44475a !important;
     }
     body,
     .topic-list li>a {
@@ -88,7 +88,7 @@
     }
     html.no-touch .pager>a:hover,
     html.no-touch #partial-index::-webkit-scrollbar-thumb {
-        background-color: #444;
+        background-color: #282a36;
     }
     html.no-touch a.more-data:hover {
         background-color: #282a36;
@@ -112,7 +112,7 @@
     }
     .no-touch .ui-autocomplete>li>div.ui-state-active,
     .no-touch .ui-autocomplete>li>div:hover {
-        background-color: #444;
+        background-color: #282a36;
         color: #aaa;
     }
     .topic-list.partial>li>a>small {
@@ -196,12 +196,12 @@
     }
     .dropdown .dropdown-menu a {
         color: #aaa;
-    }     
+    }
     .pager {
-    color: #f8f8f2;
+        color: #f8f8f2;
     }
     html.no-touch .dropdown .dropdown-menu li:hover {
-        background-color: #444;
+        background-color: #282a36;
     }
     #search-form #search-textbox {
         border: 0;
