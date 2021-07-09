@@ -213,6 +213,46 @@
     .voted.dislike .eksico {
         fill: #ff5555!important;
     }
+    html.no-touch button.primary:active:hover,
+    html.no-touch input[type=submit].primary:active:hover,
+    html.no-touch input[type=button].primary:active:hover,
+    button.primary:active:hover,
+    input[type=submit].primary:active:hover,
+    input[type=button].primary:active:hover,
+    button.primary.active:hover,
+    input[type=submit].primary.active:hover,
+    input[type=button].primary.active:hover,
+    .open > .dropdown-togglebutton.primary:hover,
+    .open > .dropdown-toggleinput[type=submit].primary:hover,
+    .open > .dropdown-toggleinput[type=button].primary:hover,
+    html.no-touch button.primary:active:focus,
+    html.no-touch input[type=submit].primary:active:focus,
+    html.no-touch input[type=button].primary:active:focus,
+    button.primary:active:focus,
+    input[type=submit].primary:active:focus,
+    input[type=button].primary:active:focus,
+    button.primary.active:focus,
+    input[type=submit].primary.active:focus,
+    input[type=button].primary.active:focus,
+    .open > .dropdown-togglebutton.primary:focus,
+    .open > .dropdown-toggleinput[type=submit].primary:focus,
+    .open > .dropdown-toggleinput[type=button].primary:focus,
+    html.no-touch button.primary:active.focus,
+    html.no-touch input[type=submit].primary:active.focus,
+    html.no-touch input[type=button].primary:active.focus,
+    button.primary:active.focus,
+    input[type=submit].primary:active.focus,
+    input[type=button].primary:active.focus,
+    button.primary.active.focus,
+    input[type=submit].primary.active.focus,
+    input[type=button].primary.active.focus,
+    .open > .dropdown-togglebutton.primary.focus,
+    .open > .dropdown-toggleinput[type=submit].primary.focus,
+    .open > .dropdown-toggleinput[type=button].primary.focus {
+        color: #FFFFFF;
+        background-color: #282a36;
+        border-color: #bd93f9;
+    }
     html.no-touch .dropdown .dropdown-menu li:hover {
         background-color: #282a36;
     }
