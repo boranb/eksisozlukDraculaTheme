@@ -451,7 +451,7 @@
     select,
     textarea,
     #search-form #search-textbox {
-        color: #282a36 !important;
+        color: #ff79c6 !important;
         background-color: #44475a;
     }
     #search-form button[type=submit] {
