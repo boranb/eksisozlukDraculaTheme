@@ -212,6 +212,14 @@
     .voted.dislike .eksico {
         fill: #ff5555!important;
     }
+    #entry-item-list footer, #matter-index-item-list footer, #matter-content footer, #pinned-entry footer, #matter-answer-index-item-list footer, #matter-answer-list footer {
+        color: #bd93f9;
+        font-size: 14px;
+    }
+    .sub-title-menu .matter-answer-info.no-answer {
+        font-size: 100%;
+        color: #8be9fd;
+    }
     html.no-touch button.primary:active:hover,
     html.no-touch input[type=submit].primary:active:hover,
     html.no-touch input[type=button].primary:active:hover,
