@@ -88,6 +88,13 @@
     html.no-touch .pager>a:hover,
     html.no-touch #partial-index::-webkit-scrollbar-thumb {
         background-color: #282a36;
+    }     
+    .more-data {
+    background-color: #282a36 !important;
+    }    
+    .more-data:hover {
+    background-color: #44475a !important;
+    color: #ff79c6 !important;        
     }
     html.no-touch a.more-data:hover {
         background-color: #282a36;
@@ -521,10 +528,18 @@
     .validation-conditions-container {
         font-size: 12px;
         padding: 5px;
-        color: #ff79c6;
+        color: #ff5555;
     }
     .field-validation-error {
         color: #ff5555;
+    }
+    .validation-conditions-container.has-error {
+    color: #ff5555;
+    }
+    .form-container .validation-failed {
+    display: block;
+    color: #ff5555;
+    clear: both;
     }
     .topic-list li .detail {
         color: #8be9fd;
