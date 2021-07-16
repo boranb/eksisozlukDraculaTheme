@@ -187,7 +187,7 @@
         border-radius: 4px;
     }
     .related-titles {
-        background-color: #282828;
+        background-color: #44475a;
         border-radius: 4px;
     }
     .related-titles>ul>li {
@@ -282,6 +282,7 @@
     #index-filter-prefs,
     #index-filter-prefs-mobile {
         background: #44475a !important;
+        border-radius: 4px;
     }
     #search-form #search-textbox {
         border: 0;
