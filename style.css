@@ -8,7 +8,7 @@
 @preprocessor   uso
 ==/UserStyle== */
 @-moz-document url-prefix("https://eksisozluk.com") {
-     ::selection {
+    ::selection {
         background: #888;
         color: #fff;
     }
@@ -22,14 +22,14 @@
         background-color: #44475a !important;
     }
     body,
-    .topic-list li>a {
+    .topic-list li > a {
         color: #aaa;
     }
     body,
-    body>header {
+    body > header {
         background-color: #282a36 !important;
     }
-    body>header {
+    body > header {
         border: 0;
         border-bottom: 1px solid #44475a !important;
     }
@@ -78,31 +78,31 @@
     input[type=button]:focus {
         background-color: #888;
     }
-    html.no-touch .topic-list li>a,
+    html.no-touch .topic-list li > a,
     .more-data {
         border-radius: 4px;
     }
-    html.no-touch .topic-list li>a:hover {
+    html.no-touch .topic-list li > a:hover {
         background-color: #44475a;
     }
-    html.no-touch .pager>a:hover,
+    html.no-touch .pager > a:hover,
     html.no-touch #partial-index::-webkit-scrollbar-thumb {
         background-color: #282a36;
-    }     
+    }
     .more-data {
-    background-color: #282a36 !important;
-    }    
+        background-color: #282a36 !important;
+    }
     .more-data:hover {
-    background-color: #44475a !important;
-    color: #ff79c6 !important;        
+        background-color: #44475a !important;
+        color: #ff79c6 !important;
     }
     html.no-touch a.more-data:hover {
         background-color: #282a36;
     }
-    .topic-list.partial>li>a>small {
+    .topic-list.partial > li > a > small {
         color: #ff79c6;
     }
-    .topic-list.partial>li>a {
+    .topic-list.partial > li > a {
         padding: 8px;
         padding-right: 12%;
     }
@@ -112,16 +112,16 @@
     .ui-autocomplete {
         background-color: #44475a;
     }
-    .ui-autocomplete>li>div {
+    .ui-autocomplete > li > div {
         color: #aaa;
         cursor: pointer;
     }
-    .no-touch .ui-autocomplete>li>div.ui-state-active,
-    .no-touch .ui-autocomplete>li>div:hover {
+    .no-touch .ui-autocomplete > li > div.ui-state-active,
+    .no-touch .ui-autocomplete > li > div:hover {
         background-color: #282a36;
         color: #aaa;
     }
-    .topic-list.partial>li>a>small {
+    .topic-list.partial > li > a > small {
         right: 8px;
         top: 8px;
     }
@@ -140,33 +140,33 @@
     .more-data {
         background-color: #282a36;
     }
-    .tabs>li.active>a {
+    .tabs > li.active > a {
         background-color: #44475a;
         color: #ccc;
     }
     .tabs {
         border-bottom: 1px solid #666;
     }
-    .tabs>li.active {
+    .tabs > li.active {
         border: 1px solid #666;
     }
-    .tabs>li>a:hover {
+    .tabs > li > a:hover {
         background-color: #44475a;
     }
     .tabs2 {
         border-color: #666;
     }
-    .tabs2>li {
+    .tabs2 > li {
         margin-bottom: 0;
     }
-    .tabs2>li+li {
+    .tabs2 > li + li {
         margin-left: 15px;
     }
-    .tabs2>li:hover>a {
+    .tabs2 > li:hover > a {
         color: #aaa;
         font-weight: normal;
     }
-    .tabs2>li.active>a {
+    .tabs2 > li.active > a {
         background-color: #44475a;
         padding: 3px 6px;
         border-radius: 4px;
@@ -190,7 +190,7 @@
         background-color: #44475a;
         border-radius: 4px;
     }
-    .related-titles>ul>li {
+    .related-titles > ul > li {
         padding: 3px;
         font-size: 1.1em;
     }
@@ -219,7 +219,12 @@
     .voted.dislike .eksico {
         fill: #ff5555!important;
     }
-    #entry-item-list footer, #matter-index-item-list footer, #matter-content footer, #pinned-entry footer, #matter-answer-index-item-list footer, #matter-answer-list footer {
+    #entry-item-list footer,
+    #matter-index-item-list footer,
+    #matter-content footer,
+    #pinned-entry footer,
+    #matter-answer-index-item-list footer,
+    #matter-answer-list footer {
         color: #bd93f9;
         font-size: 14px;
     }
@@ -236,9 +241,9 @@
     button.primary.active:hover,
     input[type=submit].primary.active:hover,
     input[type=button].primary.active:hover,
-    .open>.dropdown-togglebutton.primary:hover,
-    .open>.dropdown-toggleinput[type=submit].primary:hover,
-    .open>.dropdown-toggleinput[type=button].primary:hover,
+    .open > .dropdown-togglebutton.primary:hover,
+    .open > .dropdown-toggleinput[type=submit].primary:hover,
+    .open > .dropdown-toggleinput[type=button].primary:hover,
     html.no-touch button.primary:active:focus,
     html.no-touch input[type=submit].primary:active:focus,
     html.no-touch input[type=button].primary:active:focus,
@@ -248,9 +253,9 @@
     button.primary.active:focus,
     input[type=submit].primary.active:focus,
     input[type=button].primary.active:focus,
-    .open>.dropdown-togglebutton.primary:focus,
-    .open>.dropdown-toggleinput[type=submit].primary:focus,
-    .open>.dropdown-toggleinput[type=button].primary:focus,
+    .open > .dropdown-togglebutton.primary:focus,
+    .open > .dropdown-toggleinput[type=submit].primary:focus,
+    .open > .dropdown-toggleinput[type=button].primary:focus,
     html.no-touch button.primary:active.focus,
     html.no-touch input[type=submit].primary:active.focus,
     html.no-touch input[type=button].primary:active.focus,
@@ -260,9 +265,9 @@
     button.primary.active.focus,
     input[type=submit].primary.active.focus,
     input[type=button].primary.active.focus,
-    .open>.dropdown-togglebutton.primary.focus,
-    .open>.dropdown-toggleinput[type=submit].primary.focus,
-    .open>.dropdown-toggleinput[type=button].primary.focus {
+    .open > .dropdown-togglebutton.primary.focus,
+    .open > .dropdown-toggleinput[type=submit].primary.focus,
+    .open > .dropdown-toggleinput[type=button].primary.focus {
         color: #FFFFFF;
         background-color: #282a36;
         border-color: #bd93f9;
@@ -273,10 +278,10 @@
     fieldset legend {
         color: #ff79c6;
     }
-    .index-channel-filter>li>#filter-index-channel.active {
+    .index-channel-filter > li > #filter-index-channel.active {
         color: #8be9fd;
     }
-    .index-channel-filter>li>#filter-index-channel.passive {
+    .index-channel-filter > li > #filter-index-channel.passive {
         color: #8be9fd;
     }
     #index-filter-prefs,
@@ -302,11 +307,11 @@
     #aside {
         display: none;
     }
-    .sub-title-menu>a,
-    .sub-title-menu>div>a,
-    .sub-title-menu>div>.dropdown>a,
-    #top-navigation>ul>li>a,
-    #sub-navigation>ul>li>a {
+    .sub-title-menu > a,
+    .sub-title-menu > div > a,
+    .sub-title-menu > div > .dropdown > a,
+    #top-navigation > ul > li > a,
+    #sub-navigation > ul > li > a {
         color: #666;
     }
     #content-body {
@@ -368,22 +373,22 @@
     #logo a {
         background-image: url(https://svgshare.com/i/YuU.svg) !important;
     }
-    html.no-touch #sub-navigation>ul>li:not(.no-hover):hover>a,
-    html.no-touch #sub-navigation>ul>li:not(.no-hover).active>a {
+    html.no-touch #sub-navigation > ul > li:not(.no-hover):hover > a,
+    html.no-touch #sub-navigation > ul > li:not(.no-hover).active > a {
         color: #bd93f9;
         border-color: #bd93f9;
         text-decoration: none;
     }
-    html.no-touch #sub-navigation>ul>li:not(.no-hover):hover .eksico,
-    html.no-touch #sub-navigation>ul>li:not(.no-hover).active .eksico {
+    html.no-touch #sub-navigation > ul > li:not(.no-hover):hover .eksico,
+    html.no-touch #sub-navigation > ul > li:not(.no-hover).active .eksico {
         fill: #bd93f9;
     }
-    #sub-navigation>ul>li.active>a {
+    #sub-navigation > ul > li.active > a {
         color: #bd93f9;
         border-color: #bd93f9;
         text-decoration: none;
     }
-    #sub-navigation>ul>li.active .eksico {
+    #sub-navigation > ul > li.active .eksico {
         fill: #bd93f9;
     }
     #entry-item-list footer .other .eksico,
@@ -483,28 +488,28 @@
     html.no-touch .btn-primary:active:hover,
     .btn-primary:active:hover,
     .btn-primary.active:hover,
-    .open>.dropdown-toggle.btn-primary:hover,
+    .open > .dropdown-toggle.btn-primary:hover,
     html.no-touch .btn-primary:active:focus,
     .btn-primary:active:focus,
     .btn-primary.active:focus,
-    .open>.dropdown-toggle.btn-primary:focus,
+    .open > .dropdown-toggle.btn-primary:focus,
     html.no-touch .btn-primary:active.focus,
     .btn-primary:active.focus,
     .btn-primary.active.focus,
-    .open>.dropdown-toggle.btn-primary.focus {
+    .open > .dropdown-toggle.btn-primary.focus {
         color: #aaa;
         background-color: #44475a;
         border-color: #bd93f9
     }
     .btn-primary:active,
     .btn-primary.active,
-    .open>.dropdown-toggle.btn-primary {
+    .open > .dropdown-toggle.btn-primary {
         background-image: none
     }
-    .btn-group>.btn:hover,
-    .btn-group>.btn:focus,
-    .btn-group>.btn:active,
-    .btn-group>.btn.active {
+    .btn-group > .btn:hover,
+    .btn-group > .btn:focus,
+    .btn-group > .btn:active,
+    .btn-group > .btn.active {
         z-index: 2;
         border: 1px solid #bd93f9;
         background-color: #282a36;
@@ -535,12 +540,12 @@
         color: #ff5555;
     }
     .validation-conditions-container.has-error {
-    color: #ff5555;
+        color: #ff5555;
     }
     .form-container .validation-failed {
-    display: block;
-    color: #ff5555;
-    clear: both;
+        display: block;
+        color: #ff5555;
+        clear: both;
     }
     .topic-list li .detail {
         color: #8be9fd;
@@ -555,7 +560,7 @@
         fill: #f8f8f2;
         padding-bottom: 0.5px;
     }
-    #top-bar>#advanced-search-form {
+    #top-bar > #advanced-search-form {
         background-color: #282a36;
         border: 1px solid #44475a;
         color: #f8f8f2;
@@ -600,6 +605,9 @@
     #search-form button[type=submit] .eksico {
         fill: #282a36;
     }
+    #disambiguations {
+        background-color: #44475a!important;
+    }
     #entry-item-list .matter-index-item-title,
     #matter-index-item-list .matter-index-item-title,
     #matter-content .matter-index-item-title,
@@ -616,7 +624,7 @@
     #matter-filter-options a {
         color: #aaa;
     }
-    html.no-touch #matter-index-filter-options>li:hover {
+    html.no-touch #matter-index-filter-options > li:hover {
         background-color: #444;
     }
     @media only screen and (min-width: 1060px) {
@@ -628,7 +636,13 @@
     #index-filter-prefs-mobile {
         background: #1a1a1a;
     }
-    .index-cookie-filter>li>#filter-index-channel.passive {
+    .index-cookie-filter > li > #filter-index-channel.passive {
         color: #777;
+    }
+    #topic > h1 {
+        background-color: #282a36;
+    }
+    #fixed-intro{
+        background-color: #282a36;
     }
 }
