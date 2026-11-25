@@ -3,7 +3,7 @@
 A dark theme for [eksisozluk.com](https://eksisozluk.com) based on the [Dracula](https://draculatheme.com) color palette. Ad-free, readable, and easy on the eyes.
 
 ![Stylus](https://img.shields.io/badge/Stylus-Compatible-bd93f9?style=flat-square)
-![License](https://img.shields.io/badge/License-CC--BY--NC--SA--4.0-50fa7b?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-50fa7b?style=flat-square)
 
 ## Color Palette
 
@@ -34,4 +34,4 @@ A dark theme for [eksisozluk.com](https://eksisozluk.com) based on the [Dracula]
 
 ## License
 
-[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[MIT](LICENSE)
